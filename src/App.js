@@ -1,17 +1,20 @@
-
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import HomePage from "./components/homePage/HomePage";
-import "./index.css";
+import Footer from "./components/Footer";
+import HowDriver from "./components/HowDirver";
+import HowPassenger from "./components/HowPassenger";
+import { HowWork } from "./components/HowWork";
+import MobaileApp from "./components/MobaileApp";
+import SectionFeatures from "./components/SectionFeatures";
+import SectionHow from "./components/SectionHow";
 
 function App() {
   return (
-    <div className="bg-[#B2C8CA]">
-      <div className="container mx-auto">
-     <Header/>
-     <HomePage/>
+    <div className="container max-w-[1000px] bg-white mx-auto h-screen">
+      {/* <SectionFeatures/> */}
+      {/* <SectionHow/> */}
+      <HowWork/>
+      <HowPassenger/>
+      <HowDriver/>
      <Footer/>
-      </div>
     </div>
   );
 }
