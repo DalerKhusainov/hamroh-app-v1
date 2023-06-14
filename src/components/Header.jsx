@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './img/logo1.png'
+import logo from '../assets/img/logo1.png'
 import {AiOutlineSearch} from '@react-icons/all-files/ai/AiOutlineSearch'
 import {AiOutlinePlusCircle} from '@react-icons/all-files/ai/AiOutlinePlusCircle'
 import {BsFillPersonFill} from '@react-icons/all-files/bs/BsFillPersonFill'
