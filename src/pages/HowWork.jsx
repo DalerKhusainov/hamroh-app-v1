@@ -1,9 +1,13 @@
 import React from "react";
+
+import { useNavigate } from "react-router-dom";
+
 import driver from "../assets/img/driver.png";
 import passenger from "../assets/img/passenger.png";
-// import { Link } from "react-router-dom";
 
 export const HowWork = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-white">
       <h1 className="text-[#054550] text-center text-[28px] p-32 ">
@@ -18,7 +22,8 @@ export const HowWork = () => {
           />
           <p
             to="/howpassenger"
-            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all cursor-pointer hover:bg-indigo-600"
+            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all"
+            onClick={() => navigate("how-passenger")}
           >
             Пассажир
           </p>
@@ -31,7 +36,8 @@ export const HowWork = () => {
           />
           <p
             to="/howdriver"
-            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all cursor-pointer hover:bg-indigo-600"
+            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all"
+            onClick={() => navigate("how-driver")}
           >
             Водитель
           </p>

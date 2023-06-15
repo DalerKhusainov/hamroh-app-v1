@@ -1,7 +1,15 @@
+// REACT
 import React from "react";
+
+// REACT ROUTER
+import { useNavigate } from "react-router";
+
+// FROM ASSETS
 import company from "../assets/img/company.png";
 
 function SectionHow() {
+  const navigate = useNavigate();
+
   return (
     <div className="py-20 bg-white">
       <div className="flex justify-center">
@@ -18,7 +26,7 @@ function SectionHow() {
             </p>
             <div className="flex justify-center">
               
-                <button className=" text-[18px] text-white text-center bg-[#054550] rounded-full px-14 py-5 my-14 active:scale-90 transition-all">
+                <button className=" text-[18px] text-white text-center bg-[#054550] rounded-full px-14 py-5 my-14 active:scale-90 transition-all" onClick={() => navigate("how-work")}>
                   Узнать как это работает
                 </button>
               

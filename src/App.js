@@ -1,18 +1,27 @@
-
-import Header from "./components/Header";
 import "./index.css";
-// import Home from "./pages/Home";
-// import HowDriver from "./pages/HowDirver";
-// import HowPassenger from "./pages/HowPassenger";
+
+// REACT COMPONENTS
+import Header from "./components/Header";
+import Home from "./pages/Home";
 import { HowWork } from "./pages/HowWork";
-import RegistrationPage from "./pages/RegistrationPage";
+import HowPassenger from "./pages/HowPassenger";
+import HowDriver from "./pages/HowDirver";
+
+// REACT ROUTER
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="container max-w-[1000px] bg-white mx-auto h-screen">
-      <Header/>
-      {/* <Home/> */}
-     <RegistrationPage/>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="how-work" element={<HowWork />} />
+          <Route path="how-work/how-passenger" element={<HowPassenger />} />
+          <Route path="how-work/how-driver" element={<HowDriver />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
