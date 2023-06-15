@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 // FROM ASSETS
 import logo from "../assets/img/logo1.png";
 
-// REACT ROUTER
+// REACT ICONS
 import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch";
 import { AiOutlinePlusCircle } from "@react-icons/all-files/ai/AiOutlinePlusCircle";
 import { BsFillPersonFill } from "@react-icons/all-files/bs/BsFillPersonFill";
@@ -25,6 +25,7 @@ export default function Header() {
                 className="w-52 h-16 active:scale-95 transition-all"
                 src={logo}
                 alt="Logo"
+                onClick={() => navigate("/")}
               />
             </a>
           </a>

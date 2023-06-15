@@ -13,8 +13,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="container max-w-[1000px] bg-white mx-auto h-screen">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route index element={<Home />} />
           <Route path="how-work" element={<HowWork />} />
