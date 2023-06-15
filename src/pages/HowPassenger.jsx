@@ -58,7 +58,7 @@ function HowPassenger() {
         </div>
       </div>
       <div className="flex justify-center">
-        <button className=" text-[18px] text-white text-center bg-[#054550] rounded-full px-14 py-5 mt-14 active:scale-90 transition-all">
+        <button className=" text-[18px] text-white text-center bg-[#054550] rounded-full px-14 py-5 mt-14 active:scale-90 transition-all cursor-pointer hover:bg-indigo-600">
           Узнать как это работает
         </button>
       </div>

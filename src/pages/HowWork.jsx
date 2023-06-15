@@ -18,7 +18,7 @@ export const HowWork = () => {
           />
           <p
             to="/howpassenger"
-            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all"
+            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all cursor-pointer hover:bg-indigo-600"
           >
             Пассажир
           </p>
@@ -31,7 +31,7 @@ export const HowWork = () => {
           />
           <p
             to="/howdriver"
-            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all"
+            className="bg-[#054550] py-2 px-5 text-white m-14 rounded-[5px] w-fit text-[24px] active:scale-90 transition-all cursor-pointer hover:bg-indigo-600"
           >
             Водитель
           </p>
