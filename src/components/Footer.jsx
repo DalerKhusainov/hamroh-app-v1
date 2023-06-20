@@ -68,12 +68,12 @@ function Footer() {
           <a href="">
             <p className="text-[#B2C8CA] text-[18px] mb-3">Ищем сотрудников</p>
           </a>
-          <div className="flex justify-center md:justify-start items-center gap-1 mt-5">
-            <AiFillYoutube className="w-10 h-10 active:scale-90 transition-all" />
-            <AiOutlineTwitter className="w-10 h-10 active:scale-90 transition-all" />
-            <FaTelegram className="w-10 h-10 active:scale-90 transition-all" />
-            <AiOutlineInstagram className="w-10 h-10 active:scale-90 transition-all" />
-            <FaFacebook className="w-10 h-10 active:scale-90 transition-all" />
+          <div className="flex justify-center md:justify-start items-center gap-1 mt-7">
+            <AiOutlineTwitter className="w-10 h-10 active:scale-90 transition-all text-blue-500 hover:scale-110 cursor-pointer" />
+            <AiFillYoutube className="w-10 h-16 active:scale-90 transition-all text-red-500 hover:scale-110 cursor-pointer" />
+            <FaTelegram className="w-10 h-10 active:scale-90 transition-all text-blue-600 hover:scale-110 cursor-pointer" />
+            <AiOutlineInstagram className="w-10 h-10 active:scale-90 transition-all text-pink-600 hover:scale-110 cursor-pointer" />
+            <FaFacebook className="w-10 h-10 active:scale-90 transition-all text-blue-700 hover:scale-110 cursor-pointer" />
           </div>
         </div>
       </div>

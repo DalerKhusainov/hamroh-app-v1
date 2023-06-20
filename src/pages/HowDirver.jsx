@@ -61,7 +61,7 @@ function HowDriver() {
         </div>
       </div>
       <div className="flex justify-center pb-10">
-        <button className=" text-[18px] text-white text-center bg-[#054550] rounded-full px-14 py-5 mt-14 active:scale-90 transition-all cursor-pointer hover:bg-indigo-600">
+        <button className=" text-[18px] text-white text-center bg-[#054550] rounded-full px-14 py-5 mt-14 active:scale-90 transition-all cursor-pointer hover:shadow-md hover:shadow-[#054550]">
           Узнать как это работает
         </button>
       </div>
